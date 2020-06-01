@@ -1,0 +1,8 @@
+https://samples.clarifai.com/face-det.jpg
+
+https://portal.clarifai.com/cms-assets/20180320221615/face-001.jpg
+https://clarifai.com/cms-assets/20180320221615/face-002.jpg
+https://clarifai.com/cms-assets/20180320221616/face-003.jpg
+https://clarifai.com/cms-assets/20180320221617/face-004.jpg
+https://clarifai.com/cms-assets/20180320221618/face-005.jpg
+https://clarifai.com/cms-assets/20180320221619/face-006.jpg
