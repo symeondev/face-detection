@@ -82,7 +82,7 @@ class App extends Component {
       imageUrl: this.state.input,
       boxes: []
     });
-    fetch('https://damp-headland-44854.herokuapp.com/imageurl', {
+    fetch('https://face-detection-api-sym.herokuapp.com/imageurl', {
       method: 'post',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
@@ -92,7 +92,7 @@ class App extends Component {
       .then(response => response.json())
       .then(response => {
         if (response) {
-          fetch('https://damp-headland-44854.herokuapp.com/image', {
+          fetch('https://face-detection-api-sym.herokuapp.com/image', {
             method: 'put',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({
